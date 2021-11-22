@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menentukan Weton</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/weton.css">
 </head>
 <body>
+    <div class="judul">
+        <h1>Menentukan Weton</h1>
+    </div>
+
     <div class="form-box">
         <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
             <input type="text" name="day" id="day" placeholder="Tanggal">
